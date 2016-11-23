@@ -41,6 +41,7 @@ for custum in data_good.index.unique():
 
 #abnormal check
 data_bad_check = data_bad.reset_index().drop(['index','CONS_NO','DATA_DATE','KWH_READING','KWH_READING1','CHK_STATE'],axis=1)
+
 data_good_check = data_good.reset_index().drop(['index','CONS_NO','DATA_DATE','KWH_READING','KWH_READING1','CHK_STATE'],axis=1)
 
 
